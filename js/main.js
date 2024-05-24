@@ -8,13 +8,13 @@
 // console.log(ketish_vaqti);
 
 // 2-masala
-// let C = +prompt('gradusni selsiy shkalasida kiriting');
-// let = k;
-// let = f;
-// k = C + 273.15;
-// k = C * 1.80 + 32.00;
-// console.log(k);
-// console.log(f);
+let C = +prompt('gradusni selsiy shkalasida kiriting');
+let s;
+let f;
+s = C + 273.15;
+f = C * 1.80 + 32.00;
+console.log(s);
+console.log(f);
 
 // 3-masala
 // let a = +prompt('a kiritilsin');
