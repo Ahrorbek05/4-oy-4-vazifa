@@ -1,11 +1,11 @@
 // 1-masala
 // let t = +prompt('Poyezdning ketish vaqti');
-// t >= 0 || t <= 23;
+// t >= 0 && t <= 23;
 // let T = +prompt('Kech qolgan vaqti');
-// T ( 1 <= T || T >= 1000 );
-// (t + T)%24;
-// console.log(t);
-// console.log(T);
+// T ( 1 <= T && T >= 1000 );
+// let ketish_vaqti;
+// ketish_vaqti = (t + (T % 24)) % 24;
+// console.log(ketish_vaqti);
 
 // 2-masala
 // let C = +prompt('gradusni selsiy shkalasida kiriting');
@@ -30,17 +30,19 @@
 // }
 
 // 4-masala
-// const n = +prompt('n'); 
-// const a = +prompt('a'); 
-// const b = +prompt('b'); 
-//     const Weight = n * (1 - a / 100);
-//     const weight = weight / (1 - b / 100);
-//     console.log(weight);
-//     console.log(Weight);
+// let N = +prompt("Tarvuzning kilosi");
+// let A = +prompt("Tarvuzdagi dastlabki suvning miqdori");
+// let B = +prompt("Tasvuzdagi suvning vaqt otkandagi miqdori");
+// let T_S_O;
+// let result;
+// T_S_O = (N - (N*A)/100);
+// result = T_S_O + (N * B)/100;
+// console.log(result);
 
 
 // 5-masala
 // let N = +prompt("N ni kiriting");
+// N >= 3; N >= 100
 // let B = N * (N-2); 
 // console.log(B);
 
@@ -67,13 +69,19 @@
 // console.log(H);
 
 // 8-masala
-// let A = +prompt('A');
-// let B = +prompt('B');
-// let T = +prompt('T');
-// let result;
+// let T = +prompt("Kinoning davomiyligi");
+// let A = +prompt("Video 1 sekuntining hajmi");
+// let B = +prompt('Video tortish tezligining sekuntiga miqdori');
+// let U_H;
+// let T_V;
+// let K_V;
+// let M_K_V;
+// U_H = T * A;
+// T_V = U_H / B;
+// K_V = A / B;
+// M_K_V = T_V - K_V;
 
-// result = (A - T)/(B + A);
-// console.log(result);
+// console.log(M_K_V);
 
 // 9-masala
 // let V = +prompt("V");
